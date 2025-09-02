@@ -17,7 +17,7 @@ public class ParameterizedTests {
     private LoginPage loginPage;
 
     @BeforeEach
-    void setUp() {
+    void openPage() {
         open("https://www.saucedemo.com");
         loginPage = new LoginPage();
     }
